@@ -12,4 +12,4 @@ has_toc: true
 The Post-Quantum Cryptography Alliance PQC Readiness Tracking Working Group is a community
 driven effort to collect, verify and publish information about devices and software that need
 to be updated to remain secure when post-quantum computers can factor (break) classical
-assymetric cryptography.
+asymmetric cryptography.
