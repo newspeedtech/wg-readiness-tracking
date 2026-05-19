@@ -18,6 +18,7 @@ These trackers are a crowdsourced effort; please contribute by updating the stat
 | Conscrypt| ? | 🟢 Ready | Java | ? | |
 | Crypto++	| N/A	| 🔴 Not Supported | C++ | None | A community fork called CryptoPP-Modern has added experimental support |
 | Go crypto | [>=1.24](https://pkg.go.dev/crypto/mlkem@go1.24) | 🟢 Ready | Go | ML-KEM, ML-DSA, SLH-DSA | https://github.com/golang/go/issues/64537 |
+| IDEMIA Sphere Cryptographic Library | 1.0.0 | 🟢 Ready | C, Python, Java | ML-KEM, ML-DSA, LMS, SLH-DSA | FIPS CAVP certified https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program/details?product=19694 |
 | libsodium	| N/A |	🔴 Not Supported | C | None | Historically focused on well-established classical primitives and has not yet integrated native PQC algorithms into the core library |
 | OpenSSL | [>=3.5](https://openssl-library.org/post/2025-04-08-openssl-35-final-release/) | 🟢 Ready | C | | Native support for ML-KEM-512/768/1024, ML-DSA and SLH-DSA was introduced in [OpenSSL 3.5](https://openssl.foundation/news/the-features-of-3-5-post-quantum-cryptography). Older versions require the third-party Open Quantum Safe (OQS) provider |
 | PyCa/cryptography |	N/A |	🔴 Not Supported | Python | None | The standard Python cryptography package does not yet have native support. Users typically use wrappers like pyoqs or wolfcrypt-py |
