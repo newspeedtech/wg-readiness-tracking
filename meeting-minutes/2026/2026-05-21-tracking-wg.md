@@ -5,7 +5,7 @@ grand_parent: Meeting Minutes
 ---
 
 # Post-Quantum Cryptography Alliance - Readiness Tracking Working Group Meeting 21 May, 2026
-[**View Recording**] 
+[**View Recording**](https://zoom.us/rec/play/PFmj_mBJAtR1KAi03ZHPiSxMNfWknTKUJ4VjCSwDQhQFb_k30ghKhIJBGCYpOMwR1NnKW25MAlsIVWcf.zGCoIjTZZlUeB_JZ?accessLevel=meeting&canPlayFromShare=true&from=share_recording_detail&continueMode=true&oldStyle=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fzoom.us%2Frec%2Fshare%2F6w2izilzQM1o3OKHgXrfJb3UqkS8wR4mDkKwPWUcvTd0xE9lLTS-2NkGuYh6y2Is.j0K9ajdf_akPgmYG) 
 *Recordings are also available on your [Open Profile](https://openprofile.dev/my-meetings) page under Past Meetings*  
 [**Join the meeting**](https://zoom-lfx.platform.linuxfoundation.org/meeting/92180236021?password%3Db0389cf7-46b4-4b12-8960-743736597cff&sa=D&source=calendar&ust=1779060340269221&usg=AOvVaw0xXXgXsS7I24ZkWvbZYInS)  
 [**PQCA Meeting Calendar**](https://pqca.org/calendar/)  
@@ -26,14 +26,31 @@ Updegrove LLP, which provides legal counsel to the Linux Foundation.
 ---
 
 ## Attendance (_Alphabetical by 1st name_)
-* [] Aditya Koranga, NgKore \[TAC Chair\]
-* [] Andy Warner, Google \[Tracking WG Chair\]
-* [] Christina Harter 
-* [] Hart Montgomery 
+* [x] Aditya Koranga, NgKore \[TAC Chair\]
+* [x] Aleksei Odinokov, PQC Ready
+* [x] Andy Warner, Google \[Tracking WG Chair\]
+* [x] Avinash Nagadi
+* [x] Basil Hess, IBM
+* [x] Bill Turner, PKI Consortium
+* [x] Christian Pfister, LGT Bank
+* [x] Daniel Speciale, QInsight
+* [x] Guncha Malik, IBM
+* [x] Hart Montgomery, Linux Foundation
+* [x] Iyan Mendez Veiga, ? Univesity
+* [x] Jane Ginn, Cyber Threat Intelligence Network
+* [x] Jeyaganesh Narayanaswamy, AIB (Ireland)
+* [x] Kyle Loree, Quantum Algorithms Institute
+* [x] Marla Sumner
+* [x] Masab Iqbal, Multiverse Computing
+* [x] Mukul Kulkarni, Technology Innovation Institute (Abu Dhabi)
+* [x] Neha Gupta, University of Surrey
+* [x] Salvatore Migliaccio, Namirial
+* [x] Shubham Kumar, NgKore
+* [x] Sogo Pierre Sanon, Hydro Quebec Research Institute
+* [x] Thomas Pöppelmann, Google
 
 ---
 # Meeting Agenda
-*To be entered by WG Chair before each meeting*
 
 - **Intro to the WG**
 
@@ -51,7 +68,14 @@ Updegrove LLP, which provides legal counsel to the Linux Foundation.
 
 For the first meeting, have all attendees provide a quick intro (name, company / org, why they are interested in the Tracking WG)
 
+We spent the majority of the meeting on intros, but it was time well spent to get a feel for the different perspectives all participants had.
+It was great to see a wide cross section of organizations and geographies represented.
+
+We did not have time to dive deeply into the rest of the agenda, but we had general consensus to focus on common cryptographic libraries and tooling first and that using Markdown tables is viable for now. The meeting wrapped up right at time.
+
 ---
+
+## Push to next meeting
 
 ### **Establishing Priorities**
 
@@ -87,4 +111,4 @@ How do we want this WG to work?:
 
 ---
 
-**Adjourned:** ??:?? am PT.
+**Adjourned:** 9:30 am PT.
