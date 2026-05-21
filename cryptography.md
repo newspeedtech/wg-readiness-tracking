@@ -27,7 +27,7 @@ These trackers are a crowdsourced effort; please contribute by updating the stat
 | OpenSSL | [>=3.5](https://openssl-library.org/post/2025-04-08-openssl-35-final-release/) | 🟢 Ready | C | | Native support for ML-KEM-512/768/1024, ML-DSA and SLH-DSA was introduced in [OpenSSL 3.5](https://openssl.foundation/news/the-features-of-3-5-post-quantum-cryptography). Older versions require the third-party Open Quantum Safe (OQS) provider |
 | PyCa/cryptography |	N/A |	🔴 Not Supported | Python | None | The standard Python cryptography package does not yet have native support. Users typically use wrappers like pyoqs or wolfcrypt-py |
 | ring |	N/A |	🔴 Not Supported	| Rust |	None	| The ring crate does not support ML-KEM. Rust developers often use ml-kem (from the RustCrypto project) or aws-lc-rs for PQC support |
-| wolfSSL	| >=v5.0.0 (via liboqs), v? for native support |	🟢 Ready | C | ML-KEM, ML-DSA | 	|
+| wolfSSL	| >=v5.8.0  |	🟢 Ready | C | ML-KEM, ML-DSA, SLH-DSA, LMS/HSS, XMSS/XMSS^MT | Initial support for PQC was introduced in v5.0.0 using liboqs. Native PQC implementations were introduced in v5.7.0, and support for liboqs was deprecated in [February 2025](https://www.wolfssl.com/deprecation-notice-liboqs-integration/)	|
 
 
 Status: 🟢 Ready / 🟡 In Progress / 🔴 Not Started
