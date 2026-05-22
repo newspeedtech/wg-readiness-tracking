@@ -26,7 +26,12 @@ These trackers are a crowdsourced effort; please contribute by updating the stat
 | noble cryptography | [0.6.1](https://github.com/paulmillr/noble-post-quantum/releases/tag/0.6.1) | 🟢 Ready | TypeScript / JS  | ML-KEM, ML-DSA, SLH-DSA, HSS/LMS, Falcon (Round 3) |  Support for hybids (Concrete, XWing, KitchenSink)|
 | OpenSSL | [>=3.5](https://openssl-library.org/post/2025-04-08-openssl-35-final-release/) | 🟢 Ready | C | | Native support for ML-KEM-512/768/1024, ML-DSA and SLH-DSA was introduced in [OpenSSL 3.5](https://openssl.foundation/news/the-features-of-3-5-post-quantum-cryptography). Older versions require the third-party Open Quantum Safe (OQS) provider |
 | PyCa/cryptography |	N/A |	🔴 Not Supported | Python | None | The standard Python cryptography package does not yet have native support. Users typically use wrappers like pyoqs or wolfcrypt-py |
+| pycryptodome | N/A | 🔴 Not Supported | Python | None | Popular Python cryptography library and PyCrypto fork. No native PQC support yet |
+| pyoqs (liboqs Python) | [>=0.11.0](https://github.com/open-quantum-safe/liboqs-python) | 🟢 Ready | Python | ML-KEM, ML-DSA, SLH-DSA, BIKE, Classic McEliece, HQC, Kyber, Falcon | Python wrapper for liboqs providing comprehensive PQC algorithm support. Part of Open Quantum Safe project. https://github.com/open-quantum-safe/liboqs-python |
 | ring |	N/A |	🔴 Not Supported	| Rust |	None	| The ring crate does not support ML-KEM. Rust developers often use ml-kem (from the RustCrypto project) or aws-lc-rs for PQC support |
+| RustCrypto ml-kem | [>=0.1.0](https://github.com/RustCrypto/KEMs) | 🟢 Ready | Rust | ML-KEM | Pure Rust implementation of ML-KEM (Kyber). Part of RustCrypto project. https://crates.io/crates/ml-kem |
+| RustCrypto ml-dsa | [>=0.1.0](https://github.com/RustCrypto/signatures) | 🟢 Ready | Rust | ML-DSA | Pure Rust implementation of ML-DSA (Dilithium). Part of RustCrypto project. https://crates.io/crates/ml-dsa |
+| wolfcrypt-py | [>=5.7.0](https://github.com/wolfSSL/wolfcrypt-py) | 🟢 Ready | Python | ML-KEM, ML-DSA, SLH-DSA, LMS/HSS | Python wrapper for wolfSSL's wolfCrypt library. Provides PQC support through underlying wolfSSL implementation |
 | wolfSSL	| >=v5.8.0  |	🟢 Ready | C | ML-KEM, ML-DSA, SLH-DSA, LMS/HSS, XMSS/XMSS^MT | Initial support for PQC was introduced in v5.0.0 using liboqs. Native PQC implementations were introduced in v5.7.0, and support for liboqs was deprecated in [February 2025](https://www.wolfssl.com/deprecation-notice-liboqs-integration/)	|
 
 
