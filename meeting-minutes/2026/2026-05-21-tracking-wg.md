@@ -36,7 +36,7 @@ Updegrove LLP, which provides legal counsel to the Linux Foundation.
 * [x] Daniel Speciale, QInsight
 * [x] Guncha Malik, IBM
 * [x] Hart Montgomery, Linux Foundation
-* [x] Iyan Mendez Veiga, ? Univesity
+* [x] Iyán Méndez Veiga, HSLU / ETH Zurich
 * [x] Jane Ginn, Cyber Threat Intelligence Network
 * [x] Jeyaganesh Narayanaswamy, AIB (Ireland)
 * [x] Kyle Loree, Quantum Algorithms Institute
