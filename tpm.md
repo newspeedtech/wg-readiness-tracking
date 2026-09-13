@@ -28,6 +28,8 @@ as of PTP 1.07. TCG has defined two transition designations:
 | SEALSQ QVault TPM 183 | TPR1003B (Preliminary) | 🔴 Not Supported | PC Client (PTP 1.06) | None | ML-DSA used for firmware update signing only, not available for application TPM operations. Per [QVault TPM 183 Technical Datasheet](https://www.sealsq.com/hubfs/TPR1003B_10Aug26.pdf?hsLang=en). |
 | SEALSQ QVault TPM 185 | TPR1026A (Preliminary) | 🟡 In Progress | PC Client (PTP 1.07) | ML-KEM/ML-DSA | ML-KEM and ML-DSA mandatory per [QVault TPM 185 Technical Datasheet](https://www.sealsq.com/hubfs/Data%20Sheets/QVaultTPM_185_Datasheet.pdf). FIPS 140-3 and TCG certification processes underway. Preliminary datasheet. |
 | STMicroelectronics ST33KTPM2X | v1.59 errata 1.5 | 🔴 Not Supported | PC Client (PTP 1.06) | None | Firmware update signed with LMS (SP800-208) per downloadable databrief but no PQC algorithm support for application cryptographic operations. |
+| wolfTPM (fTPM) | [>=4.10.0](https://github.com/wolfSSL/wolfTPM/blob/master/ChangeLog.md) | 🟢 Ready | TCG PQC-ready | ML-KEM, ML-DSA | Firmware TPM built on wolfCrypt. ML-DSA sign/verify and ML-KEM encap/decap added in 4.10.0 targeting TCG TPM 2.0 Library Specification v1.85. Per [wolfTPM product page](https://www.wolfssl.com/products/wolftpm/). |
+
 
 Status: 🟢 Ready / 🟡 In Progress / 🔴 Not Supported
 
